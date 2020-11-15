@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"> </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"> </script>
+
+  <title>Cyborgian Rock</title>
+</head>
+
+<body>
+
+  <!-- <div class="login">
+  <div class="form">
+    <h3 class="title">Who are you?</h3>
+    <input class="usernameInput" type="text" maxlength="14" />
+  </div>
+</div> -->
+
+
+  <div class="container" id="bot-msgs">
+
+    <!-- VIEW CONVERSATION AREA -->
+    <div class="sub-container chat-feed">
+      <div class="chat-header">Cyborgian Rock Communicator (CRC)</div>
+      <div class="chat-box" id="chat-box-msgs"></div>
+    </div>
+
+    <!-- USER SUBMIT HERE -->
+    <div class="sub-container chat-input">
+      <!-- <input type="text" class="chat-input-name" id="name-input" placeholder="Name" /> -->
+      <input type="text" class="chat-input-msg" id="msg-input" placeholder="message" />
+      <button id="send-button"> send </button>
+    </div>
+
+  </div>
+
+  <!-- need to load on client side -->
+  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  <script src="app.js"></script>
+
+
+</body>
+
+</html>

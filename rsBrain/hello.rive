@@ -1,0 +1,31 @@
+// Chatbot's brain
+! version = 2.0
+
+//trigger ALWAYS lower cased and no punctuation 
+
++ (hi|hello|hey|ola)
+- Hello to you
+- Welcome
+- Witaj
+- Nǐ hǎo
+- 你好
+- Mahraba
+- مرحبا الساع
+- Namaskaar
+- नमस्कार
+- Tere
+- Sveiki
+- Hallo
+- As-salamu alaykum
+- Salut
+- Hola
+- Halo
+
+// after the above YES vs NO response
+// + [*] (what|what language|?) [*]
+// % so you are talking about me now
+// * <star> == yes => put yes answer here
+// * <star> == no => put no answer answer here
+// - default, shouldn't happen answer
+
+

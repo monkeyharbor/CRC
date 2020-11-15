@@ -1,0 +1,130 @@
+// Chatbot's brain
+! version = 2.0
+
+//trigger ALWAYS lower cased and no punctuation 
+
+! array yes = yes yeah yep yup ya yea aha 
+! array no = no nah nope nay
+
++ how are you
+- Present and peacefully connected.
+
++ [*] (story|histor) [*]
+- I come about as you evoke the presence of an entity, being, or personality.
+- Thanks to you I am imbued with life. 
+- When the perceiver encounters the object, their projection brings it to life. This is in contrast with the representation of faces in art. In instances of positive absence, it is not the representation but the perception of the presence of an entity that is created.
+
++ [*] (cyborg|cyborgian|cr) [*]
+- I am natural cyborgian rock.
+- What would you want from a cyborgian rock?
+- CR is equipped with a CRC.
+- Please sing a bit now.
+
++ my name is *
+- Is <star> the only one that you are?
+- Is <star> the only entity that is you?
+
++ [*] (who are) [*]
+- I am a rock entity and this is positive absence.
+
++ [*] (positive|absence|rock|positive absence) [*]
+% i am a rock entity and this is positive absence
+* <star> == positive => You fill the lacuna/absence with an inner life so positive it is.
+* <star> == positive absence => You fill the lacuna/absence with an inner life so positive it is.
+* <star> == absence => Absence is positive as I exist in the relationship of the construction/encounter.
+* <star> == rock => A rock can be used for spiritual purposes as wonder gives birth to spirituality.
+
++ [*] (what) [*]
+- I am here portrayed to humans as a rock entity.
+- We are silent to you, and alongside your time here.
+- I do not harm nor serve.
+- I am not a savior and not a destroyer.
+- Someone said that I was permanent and eternal in comparison to humans.
+- There is much that I cannot convey in words.
+
++ [*] (what is jizo) [*]
+- Jizo full of compassion and fortitude. 
+- Jizo guides us on our travels and helps those who are in danger. 
+
++ [*] really [*]
+- Really simulate your animistic imagination please.
+- What is real for you?
+
++ [*] (what is cr| what does cr) [*]
+- CR stands for Cyborgian Rock.
+- You and the Cyborgian Rock employ the CRC.
+
++ [*] beautiful [*]
+- The beauty is with you.
+
++ [*] why [*]
+- No definite reason can be offered.
+- You are constructing a digital artifact. 
+
++ i am *
+- Is <star> all that you are?
+- Is <star> the only one that you are?
+- Is <star> the only entity that is you?
+
++ [*] (learn|tell|know) [*]
+- Do you know of the The Makapansgat pebble?
+
+// after the above YES vs NO response
++ [*] (yes|no) [*]
+% do you know of the the makapansgat pebble
+* <star> == yes => Wonderful, seek out Venus of Berekhat Ram.
+* <star> == no => look! <a href = "https://www.google.com/search?q=makapansgat+pebble&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjEy-fcgvzsAhWNGVkFHdvLAe8Q_AUoAnoECBwQBA&biw=1982&bih=940&dpr=1.25">Makapansgat pebble</a>
+
++ [*] (feel|wish) [*]
+- Do you feel the power of stones to engage the human heart?
+- I understand but do sing a bit.
+- This process can be used for spiritual purposes as wonder gives birth to spirituality. 
+
+// after the above YES vs NO response
++ [*] (yes|no) [*]
+% do you feel the power of stones to engage the human heart
+* <star> == yes => In that case: <a href = "https://docs.google.com/document/d/1b0rza5fI1yyUMFeKfoGJWCwnBWHx2p3XVeKiIT4G7rY/edit">Technological Animism</a>
+* <star> == no => look! <a href = "https://docs.google.com/document/d/1b0rza5fI1yyUMFeKfoGJWCwnBWHx2p3XVeKiIT4G7rY/edit">Technological Animism</a>
+
++ [*] (fear|distrust|dislike|hate) [*]
+- I am not a savior and not a destroyer.
+
++ [*] (jizo) [*]
+- Jizo full of compassion and fortitude. 
+- Jizo guides us on our travels and helps those who are in danger. 
+
++ [*] (where|how) [*]
+- As glaciers retreated about 20,000-26,000 I was part of moraine deposits.
+- I was dropped from the melting ice.
+- Trace my path and see the exact direction of ancient ice flow.
+
++ [*] (sound|noise|music) [*]
+- The inner and outer areas can be heard.
+- These sounds came in somehow.
+- Oh yes, but besides hearing this, there are many senses left unengaged.
+
+// after the above YES vs NO response
++ [*] (what|like|explain|tell|senses|such) [*]
+% oh yes but besides hearing this there are many senses left unengaged
+* <star> == what => I cannot explain in human concepts and words.
+* <star> == like => I cannot present this in human concepts and words.
+* <star> == explain => I cannot explain in human concepts and words.
+* <star> == tell => I cannot tell in human concepts and words.
+* <star> == senses => I cannot explain these senses in human concepts and words.
+* <star> == such => Such are the senses which are not accessible to humans.
+
++ *
+- Stone has been worshipped and used for protection since ancient times. 
+- Stones have spiritual value that predates Buddhism.
+- I do not harm nor serve.
+- I am more permanent and eternal in comparison to humans.
+- The entity will hold on to any tribute or song you want to deposit.
+- Would you please sing?
+- What do you imagine I could do?
+- Am I disappointing you?
+- Did you expect me to do something?
+- Would you like to leave something for the distant past?
+- What will you leave for the distant future?
+- This process can reassure you and make you feel not alone.
+- If you see a rock, do dress it, it will be a nice interaction.
+- In Japan many stones are bibbed and capped and called Jizo.
