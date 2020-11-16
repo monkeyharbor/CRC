@@ -20,13 +20,13 @@ window.addEventListener('load', function () {
     let msgObj = { "msg": curMsg };
 
     //changed p to span to allow background color
-    let userEl = document.createElement('span');
+    let userEl = document.createElement('p');
 
     // userEl.innerHTML = " You: " + curMsg;
     userEl.innerHTML = curMsg;
 
     //add color behind text
-    userEl.style.backgroundColor = 'white';
+    // userEl.style.backgroundColor = 'white';
 
     //Add to page
     chatBox.appendChild(userEl);
@@ -52,8 +52,9 @@ window.addEventListener('load', function () {
     setTimeout(function () {
       //insert replyEl (botMsg) into chatBox
       let replyEl = document.createElement('span');
-      replyEl.innerHTML = botMsg;
 
+      replyEl.innerHTML = botMsg;
+      
       replyEl.style.backgroundColor = 'rgb(232, 229, 229)';
       
       //Add to page

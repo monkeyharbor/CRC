@@ -15,7 +15,7 @@ let http = require('http');
 let server = http.createServer(app);
 let port = process.env.PORT || 3000;
 server.listen(port, () => {
-    console.log('listening at ', port);
+    console.log('Big Ear listens via ', port);
 });
 
 //init socket.io
@@ -27,11 +27,6 @@ io.sockets.on('connection', function (socket) {
     console.log("We have a new client: " + socket.id);
 
     let bot = new RiveScript();
-
-    // const brains = [
-    //     'rsBrain/begin.rive',
-    //     'rsBrain/bot.rive'
-    // ];
 
     bot.loadDirectory("rsBrain").then(loading_done).catch(loading_error);
 
