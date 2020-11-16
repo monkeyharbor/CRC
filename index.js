@@ -45,12 +45,11 @@ io.sockets.on('connection', function (socket) {
 
     //Listen for 'msg' from client
     socket.on('msg', function (data) {
-        console.log("Server recd 'msg' event: " + data.msg);
+        console.log("Server recd 'msg' event: " + data.msg)
 
         bot.sortReplies();
 
-        // let userMsg = data.msg;
-        // console.log(data.msg);
+        let userMsg = data.msg;
 
         bot.reply("local-user", data.msg).then(function (reply) {
             console.log("The Reply Message is: " + reply);
@@ -58,31 +57,25 @@ io.sockets.on('connection', function (socket) {
             let replyObj = { "reply": reply };
             socket.emit('chat message', replyObj);
 
-            //?? NOT WORKING CORRECTLY
-            // db.insert(data.msg, replyObj,(err, newDocs)=>{
-            //     if(err) {
-            //         res.json({task: "task failed"});
-            //     } else {
-            //         res.json({task:"success"});
-            //     }
-            // });
+           // ???
+            let dbInsert = {
+                userMsg, 
+                reply: "reply"
+            };
+            //result... ??? 
+            //{"userMsg":"hello","reply":"reply","_id":"HZjymKL50hKyxxxr"}
+
+            //cant do res because not using app.get req/res
+            db.insert(dbInsert,(err, newDocs)=>{
+                if(err) {
+                    console.log('failed');
+                } else {
+                    console.log('success');
+                }
+            });
         });
 
     });
-
-    //insert client and server data into db
-    // db.insert([{ a: 5 }, { a: 42 }], function (err, newDocs) {
-    //     // Two documents were inserted in the database
-    //     // newDocs is an array with these documents, augmented with their _id
-    //   });
-
-    // db.insert(obj,(err, newDocs)=>{
-    //     if(err) {
-    //         res.json({task: "task failed"});
-    //     } else {
-    //         res.json({task:"success"});
-    //     }
-    // })
 
     //Listen for client disconnect
     socket.on('disconnect', function () {

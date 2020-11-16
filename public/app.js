@@ -19,36 +19,43 @@ window.addEventListener('load', function () {
     // let msgObj = { "name": 'curName', "msg": curMsg };
     let msgObj = { "msg": curMsg };
 
-    let userEl = document.createElement('p');
-    userEl.innerHTML = " You: " + curMsg;
+    //changed p to span to allow background color
+    let userEl = document.createElement('span');
+
+    // userEl.innerHTML = " You: " + curMsg;
+    userEl.innerHTML = curMsg;
+
+    //add color behind text
+    userEl.style.backgroundColor = 'white';
 
     //Add to page
     chatBox.appendChild(userEl);
     //Add auto scroll for the chat box 
     chatBox.scrollTop = chatBox.scrollHeight;
 
+    //clear field after user inout
+    msgInput.value = "";
+
     //Send the message object to the server
     socket.emit('msg', msgObj);
   });
 
-  // ???clear field after user inout
-  // function clearField() {
-  //   document.msgObj.value = "";
-  //   }
-
   // replybot received
   socket.on('chat message', function (data) {
     console.log("rockbot responds!!!");
-    ///??? this is where TRIGGERS ARE MISSING only catch all shows up
     console.log(data);
 
-    let botMsg = "CRC: " + data.reply;
+    // let botMsg = "CR: " + data.reply;
+    let botMsg = data.reply;
 
     //add delay befor BOT replies
     setTimeout(function () {
       //insert replyEl (botMsg) into chatBox
-      let replyEl = document.createElement('p');
+      let replyEl = document.createElement('span');
       replyEl.innerHTML = botMsg;
+
+      replyEl.style.backgroundColor = 'rgb(232, 229, 229)';
+      
       //Add to page
       chatBox.appendChild(replyEl);
       //Add auto scroll for the chat box 
