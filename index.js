@@ -46,7 +46,7 @@ io.sockets.on('connection', function (socket) {
 
         let userMsg = data.msg;
 
-        bot.reply("local-user", data.msg).then(function (reply) {
+        bot.reply("local-user", userMsg).then(function (reply) {
             console.log("The Reply Message is: " + reply);
 
             let replyObj = { "reply": reply };
@@ -54,8 +54,8 @@ io.sockets.on('connection', function (socket) {
 
            // ???
             let dbInsert = {
-                userMsg, 
-                reply: "reply"
+                "userMsg": userMsg, 
+                "reply": reply
             };
             //result... ??? 
             //{"userMsg":"hello","reply":"reply","_id":"HZjymKL50hKyxxxr"}
