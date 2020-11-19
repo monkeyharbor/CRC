@@ -55,9 +55,10 @@ io.sockets.on('connection', function (socket) {
            // ???
             let dbInsert = {
                 "userMsg": userMsg, 
-                "reply": reply
+                "reply": reply,
             };
-            //result... ??? 
+            console.log('INTO DB: ' + userMsg + " , " + reply);
+            //result...  
             //{"userMsg":"hello","reply":"reply","_id":"HZjymKL50hKyxxxr"}
 
             //cant do res because not using app.get req/res
