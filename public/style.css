@@ -63,7 +63,7 @@ button:hover{background-color:rgb(253, 253, 253);}
 
 .chat-header {
     font-size:4vw;
-    color: rgb(24, 22, 189);
+    color: rgb(76, 76, 102);
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
     /* border-right: .15em solid rgb(209, 144, 23);
