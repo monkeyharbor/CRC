@@ -1,10 +1,10 @@
 # CRC
 <br>
 <b>Cyborgian Rock Communicator (CRC)</b><br><br>
-Project Phase 1 <br>
+Project Phase 1 <br><br>
 by Maria Maciak<br>
 created in Connections Lab 2020<br>
-NYU Tisch ITP IMA Low Res<br>
+NYU Tisch ITP IMA Low Res<br><br>
 
 <b>About</b><br>
 CR is a fictional device in the form of a physical rock and a chatbot that facilitates communication with the rock. Its aim is to stimulate animistic imagination and disrupt the cultural hegemony that informs our interactions with technology. The project leverages innate human social tendencies to form new narratives with reverence towards natures.  
