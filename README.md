@@ -1,9 +1,9 @@
 # CRC
 <br>
-<b>Cyborgian Rock Communicator (CRC)</b><br><br>
+<b>Cyborgian Rock Communicator (CRC)</b><br>
 Project Phase 1 <br><br>
 by Maria Maciak<br>
-created in Connections Lab 2020<br>
+made in Connections Lab 2020<br>
 NYU Tisch ITP IMA Low Res<br><br>
 
 <b>About</b><br>
