@@ -8,13 +8,14 @@ window.addEventListener('load', function () {
   });
 
   let chatBox = document.getElementById('chat-box-msgs');
-  // let nameInput = document.getElementById('name-input');
   let msgInput = document.getElementById('msg-input');
   let sendButton = document.getElementById('send-button');
 
   //listen for click after user input
   sendButton.addEventListener('click', function () {
-    // let curName = nameInput.value;
+
+    //??? add alternative if user clicks enter/return
+
     let curMsg = msgInput.value;
     // let msgObj = { "name": 'curName', "msg": curMsg };
     let msgObj = { "msg": curMsg };
@@ -42,21 +43,16 @@ window.addEventListener('load', function () {
 
   // replybot received
   socket.on('chat message', function (data) {
-    console.log("rockbot responds!!!");
-    console.log(data);
 
-    // let botMsg = "CR: " + data.reply;
     let botMsg = data.reply;
 
     //add delay befor BOT replies
     setTimeout(function () {
+
       //insert replyEl (botMsg) into chatBox
       let replyEl = document.createElement('span');
-
       replyEl.innerHTML = botMsg;
-      
       replyEl.style.backgroundColor = 'rgb(232, 229, 229)';
-      
       //Add to page
       chatBox.appendChild(replyEl);
       //Add auto scroll for the chat box 
@@ -82,7 +78,6 @@ function setup() {
   song.loop();
 }
 
-//???why line animation not across full length
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
 }
