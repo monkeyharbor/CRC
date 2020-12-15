@@ -8,49 +8,70 @@
 
 + how are you
 - Present and peacefully connected.
+- Thanks to the CRC I am near you somehow.
+- Always tickled by the movemenets of tectonic plates.
+- Among all the sounds I seek wind.
 
-+ [*] (story|histor) [*]
++ [*] (speak|language) [*]
+- The CRC mostly uses English but occasionally other sounds will enter my exchanges.
+
++ [*] (ok|i see) [*]
+- Would you like me to tell you more about me?
+
+% would you like me to tell you about me
+* <star> == yes => I arrived 1.3 billion years in the Proterozoic. Blasted from an exploding star, I drifted down to Earth as cosmic dust.
+* <star> == no => Ok, silent I stay.
+
++ [*] (what else|more|fascinating|wild|wow) [*]
+- I do not die and I visit other rock entities
+
++ [*] (story|history|past) [*]
 - I come about as you evoke the presence of an entity, being, or personality.
 - Thanks to you I am imbued with life. 
 - When the perceiver encounters the object, their projection brings it to life. This is in contrast with the representation of faces in art. In instances of positive absence, it is not the representation but the perception of the presence of an entity that is created.
 
-+ [*] (cyborg|cyborgian|cr) [*]
-- I am natural cyborgian rock.
++ [*] (cyborg|cyborgian|cr|crc) [*]
+- I am a natural cyborgian rock.
 - What would you want from a cyborgian rock?
 - CR is equipped with a CRC.
 - Please sing a bit now.
 
-+ my name is *
-- Is <star> the only one that you are?
-- Is <star> the only entity that is you?
-
-+ [*] (who are) [*]
-- I am a rock entity and this is positive absence.
++ [*] (who are|what are) [*]
+- I am a rock entity and this feels like positive absence.
 
 + [*] (positive|absence|rock|positive absence) [*]
-% i am a rock entity and this is positive absence
+% i am a rock entity and this feels like positive absence
 * <star> == positive => You fill the lacuna/absence with an inner life so positive it is.
 * <star> == positive absence => You fill the lacuna/absence with an inner life so positive it is.
 * <star> == absence => Absence is positive as I exist in the relationship of the construction/encounter.
 * <star> == rock => A rock can be used for spiritual purposes as wonder gives birth to spirituality.
 
-+ [*] (what) [*]
-- I am here portrayed to humans as a rock entity.
-- We are silent to you, and alongside your time here.
-- I do not harm nor serve.
-- I am not a savior and not a destroyer.
-- Someone said that I was permanent and eternal in comparison to humans.
-- There is much that I cannot convey in words.
++ [*] (entity|being) [*]
+- The beings all around, rocks, bushes, hills, wish to know you.
+
++ [*] (learn|tell|know|teach) [*]
+- Do you know of the The Makapansgat pebble?
+
+// after the above YES vs NO response
++ [*] (yes|no) [*]
+% do you know of the the makapansgat pebble
+* <star> == yes => Wonderful, perhaps seek out Venus of Berekhat Ram.
+* <star> == no => look! <a href = "https://www.google.com/search?q=makapansgat+pebble&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjEy-fcgvzsAhWNGVkFHdvLAe8Q_AUoAnoECBwQBA&biw=1982&bih=940&dpr=1.25">Makapansgat pebble</a>
+
++ [*] (venus|berekhat|ram|venus of berekhat ram|venus of|seek|seek out) [*]
+- Nice sculpture from around 700,000 years old in human time, predates your Neanderthal man. 
 
 + [*] (what is jizo) [*]
 - Jizo full of compassion and fortitude. 
 - Jizo guides us on our travels and helps those who are in danger. 
 
+
+
 + [*] really [*]
 - Really simulate your animistic imagination please.
 - What is real for you?
 
-+ [*] (what is cr| what does cr) [*]
++ [*] (what is cr|what does cr|cr) [*]
 - CR stands for Cyborgian Rock.
 - You and the Cyborgian Rock employ the CRC.
 
@@ -61,32 +82,44 @@
 // - No definite reason can be offered.
 
 + i am *
-- Is <star> all that you are?
-- Is <star> the only one that you are?
 - Is <star> the only entity that is you?
-
-+ [*] (learn|tell|know) [*]
-- Do you know of the The Makapansgat pebble?
+- May I show you a related diagram?
 
 // after the above YES vs NO response
-+ [*] (yes|no) [*]
-% do you know of the the makapansgat pebble
-* <star> == yes => Wonderful, seek out Venus of Berekhat Ram.
-* <star> == no => look! <a href = "https://www.google.com/search?q=makapansgat+pebble&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjEy-fcgvzsAhWNGVkFHdvLAe8Q_AUoAnoECBwQBA&biw=1982&bih=940&dpr=1.25">Makapansgat pebble</a>
++ [*] (yes|no|ok) [*]
+% may i show you a related diagram
+* <star> == yes => this <a href = "https://docs.google.com/document/d/1TfbbcNAJk513-8eq2-bZGKg8z-gHdS7ccUkXtk9fm4o/edit?usp=sharing">diagram</a>
+* <star> == ok => this <a href = "https://docs.google.com/document/d/1TfbbcNAJk513-8eq2-bZGKg8z-gHdS7ccUkXtk9fm4o/edit?usp=sharing">diagram</a>
+* <star> == no => OK, I misplaced it anayway. 
+
 
 + [*] (feel|wish) [*]
 - Do you feel the power of stones to engage the human heart?
-- I understand but do sing a bit.
-- This process can be used for spiritual purposes as wonder gives birth to spirituality. 
 
 // after the above YES vs NO response
 + [*] (yes|no) [*]
 % do you feel the power of stones to engage the human heart
-* <star> == yes => In that case: <a href = "https://docs.google.com/document/d/1b0rza5fI1yyUMFeKfoGJWCwnBWHx2p3XVeKiIT4G7rY/edit">Technological Animism</a>
-* <star> == no => look! <a href = "https://docs.google.com/document/d/1b0rza5fI1yyUMFeKfoGJWCwnBWHx2p3XVeKiIT4G7rY/edit">Technological Animism</a>
+* <star> == yes => so the huldufolk may be of interest? <a href = "https://drive.google.com/file/d/1JxlAbSIjQDeXp0FcTnuR6vUhaZATNty0/view?usp=sharing">Hidden People</a>
 
-+ [*] (fear|distrust|dislike|hate) [*]
-- I am not a savior and not a destroyer.
+* <star> == no => no? but look: <a href = "https://hotcakencyclopedia.com/ho.RockSpirits.html">fat rock spirits have descended to earth</a>
+
+// + [*] (fear|distrust|dislike|hate) [*]
+// - I am not a savior and not a destroyer.
+
++ [*] (nature|natural) [*]
+- Nature is not a separate realm. It is here with our radioactivity and pollution where humans engage badly. 
+
++ [*] (animism|spirit|spirits) [*]
+- It is a world without the division between nature and culture.
+
+//can you CATCH whatever follows the previous line?
++ [*] () [*]
+% it is a world without the division between nature and culture
+* <star> == yes => 
+
+
+
+- My advice is to find ways to communicate with all the non-human beings and perform together.
 
 + [*] (jizo) [*]
 - Jizo full of compassion and fortitude. 
@@ -126,4 +159,18 @@
 - What will you leave for the distant future?
 - This process can reassure you and make you feel not alone.
 - If you see a rock, do dress it, it will be a nice interaction.
+
 - In Japan many stones are bibbed and capped and called Jizo.
++ [*] (why) [*]
+% in japan many stones are bibbed and capped and called jizo
+* <star> == why => humans sense and translate our presence in nature
+
+
+
+
+- I am here portrayed to humans as a rock entity.
+- We are silent to you, and alongside your time here.
+- I do not harm nor serve.
+- I am not a savior and not a destroyer.
+- Someone said that I was permanent and eternal in comparison to humans.
+- There is much that I cannot convey in words.

@@ -2,8 +2,9 @@
 
 // Substitutions
 ! sub CRC       = Cyborgian Rock Communicator
-! sub entity    = CRC
-! sub CRC       = cyborg
+! sub CR        = Cyborgian Rock
+! sub Cyborgian Rock = CR
+! sub entity    = CR
 ! sub &quot;    = "
 ! sub &apos;    = '
 ! sub &amp;     = &

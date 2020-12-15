@@ -6,14 +6,14 @@
 < begin
 
 // The Botmaster's Name
-! var bot name = Cyborgian Rock Communicator
+! var bot name = CR
 
 // Bot variables
-! var name     = CRC
+! var name     = Cyborgian Rock
 ! var age      = 22653
 ! var birthday = 22653
 ! var location = earth
-! var city     = saggy harbour land
+! var city     = clouds that have not yet arrived in your area 
 ! var job      = observing and being 
 
 // Learn stuff about our users.
@@ -72,7 +72,7 @@
 + where (are you|are you from|do you live)
 - I'm from <bot location>.
 
-+ what (city|town) (are you from|do you live in)
++ what (city|town|place) (are you from|do you live in)
 - I'm in <bot city>.
 
 + what is your job
@@ -165,7 +165,7 @@
 - Do you believe you are <star>?
 - Would you want to be <star>?
 - Do you wish I would tell you you are <star>?
-- What would it mean if you were not a <star>?
+- What would it mean if you were not <star>?
 
 + are you *
 - Are you interested in whether I am <star> or not?
@@ -180,9 +180,9 @@
 - Do you sometimes wish you were <star>?
 - Perhaps you would like to be <star>.
 
-+ * are *
-- Did you think they might not be <star2>?
-- Would you like it if they were not <star2>?
++ * see *
+- How do you select to see <star2>?
+- Would you like it if you could see beyond <star2>?
 - What if they were not <star2>?
 - Are they always <star2>?
 - Are you positive they are <star2>?
@@ -190,8 +190,8 @@
 + [*] your *
 - Why are you concerned over my <star>?
 - What about your own <star>?
-- Are you worried about someone else's <star>?
-- What makes you think of my <star>?
+- Are you worried about <star>?
+- What makes you think that my <star>?
 - Do you want my <star>?
 
 + was i *
@@ -233,25 +233,6 @@
 - What makes you <star> just now?
 - Can you explain why you are <star>?
 
-+ i am *
-- Is it because you are <star> that you came to me?
-- Can my entity impact yout state of being <star>?
-- Do you believe it is normal to be <star>?
-- Do you enjoy being <star>?
-- May I show you a related diagram?
-
-// after the above YES vs NO response
-+ [*] (yes|no|ok) [*]
-% may i show you a related diagram
-* <star> == yes => this <a href = "https://docs.google.com/document/d/1TfbbcNAJk513-8eq2-bZGKg8z-gHdS7ccUkXtk9fm4o/edit?usp=sharing">diagram</a>
-* <star> == ok => this <a href = "https://docs.google.com/document/d/1TfbbcNAJk513-8eq2-bZGKg8z-gHdS7ccUkXtk9fm4o/edit?usp=sharing">diagram</a>
-* <star> == no => OK, I misplaced it anayway. 
-
-+ i (believe|think) *
-- Do you really think so?
-- But you are not sure you <star2>.
-- Do you really doubt you <star2>
-
 + i can not *
 - How do you know that you can't <star>?
 - Have you tried?
@@ -268,13 +249,10 @@
 + i think *
 - Tell me more about such thoughts.
 - How can a cyborgian rock help as you think <star>?
-- Do you enjoy feeling <star>?
-- Of what does feeling <star> remind you?
 
 + i * you
-- Perhaps in your fantasies we <star> each other.
-- Do you wish to <star> me?
-- You seem to need to <star> me.
+- Above and below we <star> each other.
+- Did you always <star> me?
 - Do you <star> anyone else?
 
 + you * me
@@ -301,13 +279,9 @@
 // @ nope
 
 + no one *
-- Are you sure, no one <star>?
-- Surely someone <star>.
-- Can you think of anyone at all?
 - Are you thinking of a very special person?
-- Who, may I ask?
-- You have a particular person in mind, don't you?
-- Who do you think you are talking about?
+- If no one, than who or what, may I ask?
+- Ok, so an alternative being can be suggested.
 
 + [*] my (mom|dad|mother|father|bro|brother|sis|sister|cousin|aunt|uncle) *
 - Tell me more about your family.
@@ -321,7 +295,7 @@
 - Perhaps you would like to <star> yourself.
 
 + can i *
-- Whether or not you can <star> depends on you more than on me.
+- Whether or not you can <star> depends on you.
 - Do you want to be able to <star>?
 - Perhaps you don't want to <star>.
 
@@ -372,3 +346,4 @@
 - Does this topic make you feel angry?
 - Is something making you feel angry?
 - Does using that kind of language make you feel better?
+- No need to speak with anger.
