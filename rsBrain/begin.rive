@@ -156,6 +156,7 @@
 ! person i       = you
 
 // Set arrays
+! array approval = great yes super wow sure yes wonderful please ok k do
 ! array malenoun   = male guy boy dude boi man men gentleman gentlemen
 ! array femalenoun = female girl chick woman women lady babe
 ! array mennoun    = males guys boys dudes bois men gentlemen

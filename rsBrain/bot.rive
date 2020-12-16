@@ -15,15 +15,41 @@
 + [*] (speak|language) [*]
 - The CRC mostly uses English but occasionally other sounds will enter my exchanges.
 
-+ [*] (ok|i see) [*]
-- Would you like me to tell you more about me?
+% the crc mostly uses english but occasionally other sounds will enter my exchanges
++ [*] (ok|i see|wow|amazing|great|super|nice) [*]
+* <star> == ok => Would you like me to tell you more about me?
+* <star> == i see => Would you like me to tell you more about me?
+* <star> == wow => Would you like me to tell you more about me?
+* <star> == amazing => Would you like me to tell you more about me?
+* <star> == great => Would you like me to tell you more about me?
+* <star> == super => Would you like me to tell you more about me?
+* <star> == nice => Would you like me to tell you more about me?
 
++ -
 % would you like me to tell you about me
++ [*] (yes|sure|ok|no|please) [*]
 * <star> == yes => I arrived 1.3 billion years in the Proterozoic. Blasted from an exploding star, I drifted down to Earth as cosmic dust.
+* <star> == sure => I arrived 1.3 billion years in the Proterozoic. Blasted from an exploding star, I drifted down to Earth as cosmic dust.
+* <star> == please => I arrived 1.3 billion years in the Proterozoic. Blasted from an exploding star, I drifted down to Earth as cosmic dust.
+* <star> == ok => I arrived 1.3 billion years in the Proterozoic. Blasted from an exploding star, I drifted down to Earth as cosmic dust.
 * <star> == no => Ok, silent I stay.
 
-+ [*] (what else|more|fascinating|wild|wow) [*]
++ [*] (what else|more|fascinating|wild|wow|life) [*]
 - I do not die and I visit other rock entities
+
+% i do not die and i vist other rock entities
++ [*] (how|really|wow|where) [*]
+* <star> == how => The beings of hills and wind carry me across. 
+* <star> == really => The beings of hills and wind carry me across. 
+* <star> == wow => The beings of hills and wind carry me across. 
+* <star> == where => The beings of hills and wind carry me across. 
+
+
+// // THIS IS MY EXAMPLE after the above specify responses in () separate by |
+// + [*] (yes|no|ok) [*]
+// % may i show you a diagram
+// * <star> == no => OK, I misplaced it anayway. 
+
 
 + [*] (story|history|past) [*]
 - I come about as you evoke the presence of an entity, being, or personality.
@@ -66,9 +92,8 @@
 - Jizo guides us on our travels and helps those who are in danger. 
 
 
-
 + [*] really [*]
-- Really simulate your animistic imagination please.
+- Really engage your animistic imagination please.
 - What is real for you?
 
 + [*] (what is cr|what does cr|cr) [*]
@@ -125,7 +150,7 @@
 - Jizo full of compassion and fortitude. 
 - Jizo guides us on our travels and helps those who are in danger. 
 
-+ [*] (where|how) [*]
++ [*] (where) [*]
 - As glaciers retreated about 20,000-26,000 I was part of moraine deposits.
 - I was dropped from the melting ice.
 - Trace my path and see the exact direction of ancient ice flow.

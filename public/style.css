@@ -62,7 +62,7 @@ button{
 button:hover{background-color:rgb(253, 253, 253);}
 
 .chat-header {
-    font-size:4vw;
+    font-size:3vw;
     color: rgb(76, 76, 102);
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
@@ -75,6 +75,7 @@ button:hover{background-color:rgb(253, 253, 253);}
     letter-spacing: .1em;
     animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
     padding-bottom: 40px;
+    padding-top: 20px;
 }
 
 /* The typing effect */
