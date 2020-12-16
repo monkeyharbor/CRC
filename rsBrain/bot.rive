@@ -15,26 +15,18 @@
 + [*] (speak|language) [*]
 - The CRC mostly uses English but occasionally other sounds will enter my exchanges.
 
-% the crc mostly uses english but occasionally other sounds will enter my exchanges
 + [*] (ok|i see|wow|amazing|great|super|nice) [*]
-* <star> == ok => Would you like me to tell you more about me?
-* <star> == i see => Would you like me to tell you more about me?
-* <star> == wow => Would you like me to tell you more about me?
-* <star> == amazing => Would you like me to tell you more about me?
-* <star> == great => Would you like me to tell you more about me?
-* <star> == super => Would you like me to tell you more about me?
-* <star> == nice => Would you like me to tell you more about me?
+% the crc mostly uses english but occasionally other sounds will enter my exchanges
+- Would you like me to tell you more about me?
 
-% would you like me to tell you about me
-+ [*] (yes|sure|ok|no|please) [*]
-* <star> == yes => I arrived 1.3 billion years in the Proterozoic. Blasted from an exploding star, I drifted down to Earth as cosmic dust.
-* <star> == sure => I arrived 1.3 billion years in the Proterozoic. Blasted from an exploding star, I drifted down to Earth as cosmic dust.
-* <star> == please => I arrived 1.3 billion years in the Proterozoic. Blasted from an exploding star, I drifted down to Earth as cosmic dust.
-* <star> == ok => I arrived 1.3 billion years in the Proterozoic. Blasted from an exploding star, I drifted down to Earth as cosmic dust.
-* <star> == no => Ok, silent I stay.
++ [*] (yes|sure|ok|please|please do) [*]
+% would you like me to tell you more about me
+- I arrived 1.3 billion years in the Proterozoic. 
 
-+ [*] (what else|more|fascinating|wild|wow|life) [*]
-- I do not die and I visit other rock entities
+% i arrived billion years in the proterozoic
++ [*] (fascinating|wild|wow|are you dust|long ago|what was|when) [*]
+- Blasted from an exploding star, I drifted down to earth as cosmic dust.
+- I do not die and I visit other rock entities. 
 
 % i do not die and i vist other rock entities
 + [*] (how|really|wow|where) [*]
@@ -42,13 +34,6 @@
 * <star> == really => The beings of hills and wind carry me across. 
 * <star> == wow => The beings of hills and wind carry me across. 
 * <star> == where => The beings of hills and wind carry me across. 
-
-
-// // THIS IS MY EXAMPLE after the above specify responses in () separate by |
-// + [*] (yes|no|ok) [*]
-// % may i show you a diagram
-// * <star> == no => OK, I misplaced it anayway. 
-
 
 + [*] (story|history|past) [*]
 - I come about as you evoke the presence of an entity, being, or personality.
@@ -89,7 +74,6 @@
 + [*] (what is jizo) [*]
 - Jizo full of compassion and fortitude. 
 - Jizo guides us on our travels and helps those who are in danger. 
-
 
 + [*] really [*]
 - Really engage your animistic imagination please.
@@ -155,21 +139,35 @@
 + [*] (sound|noise|music) [*]
 - The inner and outer areas can be heard.
 - These sounds came in somehow.
-- Oh yes, but besides hearing this, there are many senses left unengaged.
+- Oh yes but many senses are left unutilized by humans
 
 // after the above YES vs NO response
-+ [*] (what|like|explain|tell|senses|such) [*]
-% oh yes but besides hearing this there are many senses left unengaged
++ [*] (what|like|explain|tell|senses|such|which) [*]
+% oh yes but many senses are left unutilized by humans
 * <star> == what => I cannot explain in human concepts and words.
 * <star> == like => I cannot present this in human concepts and words.
 * <star> == explain => I cannot explain in human concepts and words.
 * <star> == tell => I cannot tell in human concepts and words.
 * <star> == senses => I cannot explain these senses in human concepts and words.
 * <star> == such => Such are the senses which are not accessible to humans.
+* <star> == which => Such are the senses which are not accessible to humans.
+
++ [*] (time|spiritual|spirit) [*]
+- Spirit has much time and stones have spiritual value that predates Buddhism.
+
++ [*] (when|buddhism|time|religion|incredible) [*]
+% spirit has much time and stones have spiritual value that predates buddhism
+* <star> == when => Buddhism goes back to the 6th century BCE but stones like myself were in communication since the Middle Paleolithic, or Old Stone Age.
+* <star> == buddhism => Buddhism goes back to the 6th century BCE but stones like myself were in communication since the Middle Paleolithic, or Old Stone Age.
+* <star> == time => Buddhism goes back to the 6th century BCE but stones like myself were in communication since the Middle Paleolithic, or Old Stone Age.
+* <star> == religion => Buddhism goes back to the 6th century BCE but stones like myself were in communication since the Middle Paleolithic, or Old Stone Age.
+* <star> == incredible => Buddhism goes back to the 6th century BCE but stones like myself were in communication since the Middle Paleolithic, or Old Stone Age.
+
++ (happy|merry) (christmas|xmas|valentines day|thanksgiving)
+- Tank you. Is it really <star2> already?
 
 + *
 - Stone has been worshipped and used for protection since ancient times. 
-- Stones have spiritual value that predates Buddhism.
 - I do not harm nor serve.
 - I am more permanent and eternal in comparison to humans.
 - The entity will hold on to any tribute or song you want to deposit.
@@ -181,18 +179,17 @@
 - What will you leave for the distant future?
 - This process can reassure you and make you feel not alone.
 - If you see a rock, do dress it, it will be a nice interaction.
-
-- In Japan many stones are bibbed and capped and called Jizo.
-+ [*] (why) [*]
-% in japan many stones are bibbed and capped and called jizo
-* <star> == why => humans sense and translate our presence in nature
-
-
-
-
 - I am here portrayed to humans as a rock entity.
 - We are silent to you, and alongside your time here.
 - I do not harm nor serve.
 - I am not a savior and not a destroyer.
 - Someone said that I was permanent and eternal in comparison to humans.
 - There is much that I cannot convey in words.
+- Where do you go?
+- In Japan many stones are bibbed and capped and called Jizo.
++ [*] (why) [*]
+% in japan many stones are bibbed and capped and called jizo
+* <star> == why => Humans sense us and translate our presence.
+
+
+

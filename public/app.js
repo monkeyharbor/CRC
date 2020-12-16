@@ -84,6 +84,7 @@ function preload() {
   song = loadSound('assets/audio_rock.mp3');
 }
 
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   img = loadImage("assets/v2.png");
@@ -120,4 +121,12 @@ function mousePressed() {
   } else {
     song.play();
   }
+  // document.querySelector('button').addEventListener('click', function() {
+  //   context.resume().then(() => {
+  //     console.log('Playback resumed successfully');
+  //   });
+  //})
 }
+
+
+
