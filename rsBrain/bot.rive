@@ -25,7 +25,6 @@
 * <star> == super => Would you like me to tell you more about me?
 * <star> == nice => Would you like me to tell you more about me?
 
-+ -
 % would you like me to tell you about me
 + [*] (yes|sure|ok|no|please) [*]
 * <star> == yes => I arrived 1.3 billion years in the Proterozoic. Blasted from an exploding star, I drifted down to Earth as cosmic dust.
@@ -140,9 +139,7 @@
 //can you CATCH whatever follows the previous line?
 + [*] () [*]
 % it is a world without the division between nature and culture
-* <star> == yes => 
-
-
+* <star> == yes => All of us, birds, plants, insects, rocks, transmit feelings.
 
 - My advice is to find ways to communicate with all the non-human beings and perform together.
 

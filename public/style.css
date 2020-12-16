@@ -37,14 +37,10 @@ transition-delay: 8s;
 input {
     display: inline;
     padding: 10px;
-    margin: 20px 20px 0 0;
+    margin: 20px 20px 0px 0px;
     height: 10px;
     /* background-color: #FFFF00; */
 }
-
-/* .chat-input-name {
-    width: 20%;
-} */
 
 .chat-input-msg {
     width: 85%;
@@ -79,7 +75,6 @@ button:hover{background-color:rgb(253, 253, 253);}
 }
 
 /* The typing effect */
-
 @keyframes typing {
     from {
         width: 0
@@ -88,12 +83,6 @@ button:hover{background-color:rgb(253, 253, 253);}
         width: 100%
     }
 }
-
-/* The typewriter cursor effect
-        @keyframes blink-caret {
-        from, to {border-color: transparent}
-        50% {border-color: rgb(97, 89, 74)}
-        } */
 
 .chat-box {
     /* border: 2px solid black; */
@@ -115,8 +104,50 @@ canvas {
     z-index: -1;
 }
 
+.about-page {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 75%;
+    padding: 10%;
+    line-height: 1.6;
+
+}
+
 @media (max-width: 800px) {
     .sub-container {
         width: 75%;
     }
+}
+
+.about-link {
+    display: inline-block;
+    margin: 20px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    display: flex;
+    }
+    
+    a:link, a:visited {
+    align-items: center;
+    background-color:rgb(232, 229, 229);
+    color: rgb(101, 92, 92);
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: .1em;
+    display: inline-blck;
+    font-size: 1.5vw;
+    border-radius: 3px;
+    }
+
+    a:hover, a:active {
+    background-color: rgb(244, 241, 69);
+}
+
+.back-link {
+    display: inline-block;
+    margin: 20px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    display: flex;
 }
