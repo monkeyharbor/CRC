@@ -8,12 +8,9 @@ NYU Tisch ITP IMA Low Res<br><br>
 
 <b>About</b><br>
 The Cyborgian Rock, a fictional entity experienced via a chatbot, stimulates animistic imagination in the user.
-<br>
-The Cyborgian Rock (CR) explores the untapped potentialities of social presence theory in technology. Social presence can be defined as the sense of being with another and is exploited by the designers of products such as Alexa or Tamagotchi.
-<br>
-The CR experience is the opposite of our encounters with consumer techno-products. It does not serve a utilitarian purpose or provide consumerist pleasures. Instead, it steers one towards reflections on nature, ancient traditions, and traditional modes of understanding as they relate to the modern experience.
-<br>
-The rock entity speaks obliquely, evoking both a sense of a non-human consciousness and providing the negative space necessary for a sense of social presence. The rock's responses touch on animistic traditions, thus marrying the digital interface design and ancient modes of projecting social presence onto the natural world.
+<p> The CR explores the untapped potentialities of social presence theory in technology. Social presence can be defined as the sense of being with another and is exploited by the designers of products such as Alexa or Tamagotchi.</p>
+<p> The CR experience is the opposite of our encounters with consumer techno-products. It does not serve a utilitarian purpose or provide consumerist pleasures. Instead, it steers one towards reflections on nature, ancient traditions, and traditional modes of understanding as they relate to the modern experience. </p>
+<p> The rock entity speaks obliquely, evoking both a sense of a non-human consciousness and providing the negative space necessary for a sense of social presence. The rock's responses touch on animistic traditions, thus marrying the digital interface design and ancient modes of projecting social presence onto the natural world.</p>
 
 
 <b>Set up</b><br>
