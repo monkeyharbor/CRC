@@ -12,19 +12,19 @@ window.addEventListener('load', function () {
   let sendButton = document.getElementById('send-button');
 
 
-  // //listen for Enter key press
-  // window.addEventListener("keydown", function(event) {
-  //   KeyboardEvent: key='${event.Enter}' | code='${event.Enter}'`;
-  //   document.getElementById("myBtn").click();
-  // }, true);
+  // listen for Enter key press and trigger button click
+  msgInput.addEventListener("keyup", function(event) {
+      if (event.key === 'Enter') {
+          event.preventDefault();
+          sendButton.click();
+      }
+  });
 
 
   //listen for click after user input
   sendButton.addEventListener('click', function () {
 
     if(msgInput.value) {
-
-    //??? add alternative if user clicks enter/return
 
     let curMsg = msgInput.value;
     // let msgObj = { "name": 'curName', "msg": curMsg };
@@ -53,7 +53,7 @@ window.addEventListener('load', function () {
   });
 
 
-  // replybot received
+  // reply from bot received
   socket.on('chat message', function (data) {
 
     let botMsg = data.reply;

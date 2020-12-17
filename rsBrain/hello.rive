@@ -29,7 +29,7 @@
 // - default, shouldn't happen answer
 
 
-+ (good bye|bye|later|bye bye|ciao|see you|be well)
++ (good bye|bye|later|bye bye|ciao|see you|be well|adios)
 - Same to you, good bye.
 - I am glad to have encountered you.
 - Be well and look with joy.
